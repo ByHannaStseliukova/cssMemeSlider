@@ -117,3 +117,36 @@ transform: translateX(-800px);
 #r4:checked ~ .sliderCaptionsWrap .sliderCaptions {
 transform: translateX(-1200px);
 }
+.sliderControl label::before {
+content: '';
+position: absolute;
+top: 0;
+left: 0;
+transform: translate(50%, 50%);
+width: 1.2rem;
+height: 1.2rem;
+border-radius: 50%;
+border: 1px solid #495111;
+background-color: #495111;
+transition: all 0.5s ease-out;
+}
+.sliderControl label:hover:before {
+border: 1px solid #7E8825;
+background-color: #7E8825;
+}
+#r1:checked ~ .sliderControl .sliderControlFirst::before {
+background-color: #312E2F;
+border: 1px solid #7E8825;
+}
+#r2:checked ~ .sliderControl .sliderControlSecond::before {
+background-color: #312E2F;
+border: 1px solid #7E8825;
+}
+#r3:checked ~ .sliderControl .sliderControlThird::before {
+background-color: #312E2F;
+border: 1px solid #7E8825;
+}
+#r4:checked ~ .sliderControl .sliderControlFourth::before {
+background-color: #312E2F;
+border: 1px solid #7E8825;
+}
