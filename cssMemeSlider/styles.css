@@ -105,3 +105,15 @@ transform: translateX(-800px);
 #r4:checked ~ .sliderContentWrap .sliderContent {
 transform: translateX(-1200px);
 }
+#r1:checked ~ .sliderCaptionsWrap .sliderCaptions {
+transform: translateX(0);
+}
+#r2:checked ~ .sliderCaptionsWrap .sliderCaptions {
+transform: translateX(-400px);
+}
+#r3:checked ~ .sliderCaptionsWrap .sliderCaptions {
+transform: translateX(-800px);
+}
+#r4:checked ~ .sliderCaptionsWrap .sliderCaptions {
+transform: translateX(-1200px);
+}
