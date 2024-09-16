@@ -61,16 +61,16 @@ background-position: center;
 border-radius: 1rem;
 }
 .sliderContent .firstSlide {
-background-image: url('first-slide.jpg');
+background-image: url('picture-first-slide.jpg');
 }
 .sliderContent .secondSlide {
-background-image: url('second-slide.jpg');
+background-image: url('picture-second-slide.jpg');
 }
 .sliderContent .thirdSlide {
-background-image: url('third-slide.png');
+background-image: url('picture-third-slide.png');
 }
 .sliderContent .fourthSlide {
-background-image: url('fourth-slide.png');
+background-image: url('picture-fourth-slide.png');
 }
 .sliderCaptionsWrap {
 grid-area: description;
